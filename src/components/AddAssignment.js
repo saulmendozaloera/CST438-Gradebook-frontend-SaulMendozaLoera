@@ -71,7 +71,7 @@ class AddAssignment extends React.Component{
               <br/><br/>
               <TextField autoFocus style = {{width:200}} label="Assignment Name" name="name" onChange={this.handleChange}  value={name} />
               <br/><br/>
-              <TextField autoFocus style = {{width:200}} label="Assignment Due Date" name="due" onChange={this.handleChange}  value={due} />
+              <TextField autoFocus style = {{width:200}} label="Assignment Due Date" name="due" onChange={this.handleChange}  placeholder='YYYY-MM-DD' value={due} />
               <br/><br/>
               <div style={{ height: 400, width: '100%' }}>
                 <Button id="Submit" variant="outlined" color="primary" style={{margin: 10}} onClick={this.handleAdd} >
